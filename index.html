@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="contain">
+        <img src="./img/strike music (1).png" alt="logo de música">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">Rock</a>
+                </li>
+                <li>
+                    <a href="#">Pop</a>
+                </li>
+                <li>
+                    <a href="#">Rap</a>
+                </li>
+            </ul>
+        </nav> 
+       
+    </header>
+        
+    <main>
+
+        <h1 class="titulo-principal">Que musica quieres reproducir hoy</h1>
+            
+        <section id="cards-music" class="album-cards"></section>                      
+    </main>
+    <section class="form-section">
+        <div class="form-container">
+            <h2>Crear tu Playlist</h2>
+            <form id="playlist-form">
+                <div class="form-group">
+                    <label for="song">Escoge tu canción favorita</label>
+                    <select id="song" name="song" required>
+                        <option value="">Selecciona una canción</option>
+                        <option value="song1">21 Quenstion</option>
+                        <option value="song2">Locked Out of Heaven</option>
+                        <option value="song3">Bohemian Rhapsody</option>
+                        <option value="song4">Without Me</option>
+                        <option value="song5">Yellow</option>
+                        <option value="song6">Black in Black</option>
+                        <option value="song7">call out my name</option>
+                        <option value="song8">You Know How We Do It</option>
+                        <option value="song9">Billie Jean</option>
+                        <option value="song10">Sweet Child O Mine</option>
+                        <option value="song11">Numb</option>
+                        <option value="song12">Rock and Roll All Nite</option>
+                        </select> 
+                </div>
+                <div class="form-group">
+                    <button id="crear-playlis" type="submit">Crear Playlist</button>
+                </div>
+
+                <div id="playlist-creada"></div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <h2>Consulta nuestras redes sociales</h2>
+        <div class="social-icons">
+            <a href="#" target="_blank">
+                <img src="./img/facebook-color-svgrepo-com.svg" alt="Facebook">
+            </a>
+            <a href="#" target="_blank">
+                <img src="./img/instagram-1-svgrepo-com.svg" alt="Instagram">
+            </a>
+            <a href="#" target="_blank">
+                <img src="./img/twitter-svgrepo-com.svg" alt="Twitter">
+            </a>  
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+
+</body>
+</html>
